@@ -413,6 +413,16 @@ namespace ControleFinanças.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap user {
+            get {
+                object obj = ResourceManager.GetObject("user", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WhatsApp_Image_2021_06_17_at_3_32_18_PM {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp Image 2021-06-17 at 3.32.18 PM", resourceCulture);

@@ -74,11 +74,6 @@
     <Compile Include="EntradaSaldo.Designer.cs">
       <DependentUpon>EntradaSaldo.cs</DependentUpon>
     </Compile>
-    <Compile Include="FinançasVerdeDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>FinançasVerdeDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="SaidaSaldo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,17 +128,6 @@
     <EmbeddedResource Include="TelaLoginCadastrar.resx">
       <DependentUpon>TelaLoginCadastrar.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="FinançasVerdeDataSet.xsc">
-      <DependentUpon>FinançasVerdeDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="FinançasVerdeDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>FinançasVerdeDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="FinançasVerdeDataSet.xss">
-      <DependentUpon>FinançasVerdeDataSet.xsd</DependentUpon>
-    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -288,6 +272,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\outline_skip_next_black_18dp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

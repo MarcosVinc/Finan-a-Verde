@@ -36,12 +36,5 @@ namespace ControleFinanças
            SaidaSaldo ad = new SaidaSaldo(UsuarioLogado);
             ad.Show();
         }
-
-        private void AddIntermediario_Load(object sender, EventArgs e)
-        {
-            // TODO: esta linha de código carrega dados na tabela 'finançasVerdeDataSet.Usuario'. Você pode movê-la ou removê-la conforme necessário.
-            this.usuarioTableAdapter.Fill(this.finançasVerdeDataSet.Usuario);
-
-        }
     }
 }

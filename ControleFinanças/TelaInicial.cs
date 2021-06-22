@@ -16,7 +16,7 @@ using System.Windows.Forms;
 namespace ControleFinanças
 {
     public partial class TelaInicial : Form
-    {
+    {      
         public Usuario UsuarioLogado;
         Conexao conexao = new Conexao();
         SqlCommand cmd = new SqlCommand();
@@ -86,15 +86,20 @@ namespace ControleFinanças
             MessageBox.Show("https://github.com/MarcosVinc");
         }
 
-        private void TelaInicial_Load(object sender, EventArgs e)
-        {
-            webBrowser1.Navigate("https://www.instagram.com/marcosl.xs/?hl=pt-br");
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             AddIntermediario ad = new AddIntermediario(UsuarioLogado);
             ad.Show();
+
+        }
+
+        private void UserControlPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TelaInicial_Load(object sender, EventArgs e)
+        {
 
         }
     }
