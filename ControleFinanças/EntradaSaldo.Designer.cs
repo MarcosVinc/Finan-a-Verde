@@ -1,7 +1,7 @@
 ﻿
 namespace ControleFinanças
 {
-    partial class AdicionarValorB
+    partial class EntradaSaldo
     {
         /// <summary>
         /// Required designer variable.
@@ -50,6 +50,7 @@ namespace ControleFinanças
             this.label1.Size = new System.Drawing.Size(216, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "VALOR A SER ADICIONADO  :";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtDinheiro
             // 
@@ -59,6 +60,7 @@ namespace ControleFinanças
             this.txtDinheiro.Size = new System.Drawing.Size(255, 20);
             this.txtDinheiro.TabIndex = 1;
             this.txtDinheiro.Text = "R$: 0,00";
+            this.txtDinheiro.TextChanged += new System.EventHandler(this.txtDinheiro_TextChanged);
             // 
             // panel1
             // 
@@ -112,7 +114,7 @@ namespace ControleFinanças
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // AdicionarValorB
+            // EntradaSaldo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -124,9 +126,10 @@ namespace ControleFinanças
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximumSize = new System.Drawing.Size(305, 166);
             this.MinimumSize = new System.Drawing.Size(305, 166);
-            this.Name = "AdicionarValorB";
+            this.Name = "EntradaSaldo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdicionarValor";
+            this.Load += new System.EventHandler(this.EntradaSaldo_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

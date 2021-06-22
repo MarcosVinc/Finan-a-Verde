@@ -60,7 +60,7 @@ namespace ControleFinanças
         private void button7_Click(object sender, EventArgs e)
         {
 
-            AdicionarValorB ad = new AdicionarValorB(UsuarioLogado);
+            EntradaSaldo ad = new EntradaSaldo(UsuarioLogado);
             ad.Show();
         }
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -93,7 +93,7 @@ namespace ControleFinanças
 
         private void button2_Click(object sender, EventArgs e)
         {
-            AdicionarValorB ad = new AdicionarValorB(UsuarioLogado);
+            AddIntermediario ad = new AddIntermediario(UsuarioLogado);
             ad.Show();
 
         }

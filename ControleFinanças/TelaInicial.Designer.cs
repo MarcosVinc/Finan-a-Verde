@@ -57,7 +57,7 @@ namespace ControleFinanças
             // 
             // PanTop
             // 
-            this.PanTop.BackColor = System.Drawing.SystemColors.Control;
+            this.PanTop.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.PanTop.Controls.Add(this.pictureBox1);
             this.PanTop.Controls.Add(this.panel5);
             this.PanTop.Controls.Add(this.siticoneControlBox1);
@@ -66,7 +66,7 @@ namespace ControleFinanças
             this.PanTop.Location = new System.Drawing.Point(0, 0);
             this.PanTop.Name = "PanTop";
             this.PanTop.ShadowDecoration.Parent = this.PanTop;
-            this.PanTop.Size = new System.Drawing.Size(426, 35);
+            this.PanTop.Size = new System.Drawing.Size(737, 35);
             this.PanTop.TabIndex = 0;
             // 
             // pictureBox1
@@ -93,7 +93,7 @@ namespace ControleFinanças
             this.siticoneControlBox1.FillColor = System.Drawing.Color.Teal;
             this.siticoneControlBox1.HoverState.Parent = this.siticoneControlBox1;
             this.siticoneControlBox1.IconColor = System.Drawing.Color.Honeydew;
-            this.siticoneControlBox1.Location = new System.Drawing.Point(327, 3);
+            this.siticoneControlBox1.Location = new System.Drawing.Point(638, 3);
             this.siticoneControlBox1.Name = "siticoneControlBox1";
             this.siticoneControlBox1.ShadowDecoration.Parent = this.siticoneControlBox1;
             this.siticoneControlBox1.Size = new System.Drawing.Size(45, 29);
@@ -105,7 +105,7 @@ namespace ControleFinanças
             this.siticoneControlBox2.FillColor = System.Drawing.Color.Teal;
             this.siticoneControlBox2.HoverState.Parent = this.siticoneControlBox2;
             this.siticoneControlBox2.IconColor = System.Drawing.Color.Honeydew;
-            this.siticoneControlBox2.Location = new System.Drawing.Point(378, 3);
+            this.siticoneControlBox2.Location = new System.Drawing.Point(689, 3);
             this.siticoneControlBox2.Name = "siticoneControlBox2";
             this.siticoneControlBox2.ShadowDecoration.Parent = this.siticoneControlBox2;
             this.siticoneControlBox2.Size = new System.Drawing.Size(45, 29);
@@ -118,13 +118,14 @@ namespace ControleFinanças
             // 
             // PanBt
             // 
+            this.PanBt.BackColor = System.Drawing.Color.Transparent;
             this.PanBt.Controls.Add(this.button4);
             this.PanBt.Controls.Add(this.button3);
             this.PanBt.Controls.Add(this.button2);
             this.PanBt.Controls.Add(this.button1);
             this.PanBt.Location = new System.Drawing.Point(3, 38);
             this.PanBt.Name = "PanBt";
-            this.PanBt.Size = new System.Drawing.Size(420, 32);
+            this.PanBt.Size = new System.Drawing.Size(731, 32);
             this.PanBt.TabIndex = 17;
             // 
             // button4
@@ -134,9 +135,9 @@ namespace ControleFinanças
             this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Aqua;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(321, 3);
+            this.button4.Location = new System.Drawing.Point(555, 3);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 26);
+            this.button4.Size = new System.Drawing.Size(178, 26);
             this.button4.TabIndex = 21;
             this.button4.Text = "GRAFICO";
             this.button4.UseVisualStyleBackColor = false;
@@ -148,9 +149,9 @@ namespace ControleFinanças
             this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Aqua;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(215, 3);
+            this.button3.Location = new System.Drawing.Point(187, 3);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 26);
+            this.button3.Size = new System.Drawing.Size(178, 26);
             this.button3.TabIndex = 20;
             this.button3.Text = "GRAFICO";
             this.button3.UseVisualStyleBackColor = false;
@@ -164,9 +165,9 @@ namespace ControleFinanças
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Location = new System.Drawing.Point(3, 3);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 26);
+            this.button2.Size = new System.Drawing.Size(178, 26);
             this.button2.TabIndex = 19;
-            this.button2.Text = "GRAFICO";
+            this.button2.Text = "SALDO";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -177,30 +178,30 @@ namespace ControleFinanças
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Aqua;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(109, 3);
+            this.button1.Location = new System.Drawing.Point(371, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 26);
+            this.button1.Size = new System.Drawing.Size(178, 26);
             this.button1.TabIndex = 18;
             this.button1.Text = "GRAFICO";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // siticonePanel1
             // 
-            this.siticonePanel1.BackColor = System.Drawing.SystemColors.Control;
+            this.siticonePanel1.BackColor = System.Drawing.Color.Transparent;
             this.siticonePanel1.Controls.Add(this.pictureBox4);
             this.siticonePanel1.Controls.Add(this.pictureBox3);
             this.siticonePanel1.Controls.Add(this.pictureBox2);
             this.siticonePanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.siticonePanel1.Location = new System.Drawing.Point(0, 544);
+            this.siticonePanel1.Location = new System.Drawing.Point(0, 493);
             this.siticonePanel1.Name = "siticonePanel1";
             this.siticonePanel1.ShadowDecoration.Parent = this.siticonePanel1;
-            this.siticonePanel1.Size = new System.Drawing.Size(426, 35);
+            this.siticonePanel1.Size = new System.Drawing.Size(737, 35);
             this.siticonePanel1.TabIndex = 18;
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::ControleFinanças.Properties.Resources.outline_skip_next_black_18dp1;
-            this.pictureBox4.Location = new System.Drawing.Point(375, 0);
+            this.pictureBox4.Location = new System.Drawing.Point(620, 0);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(39, 36);
             this.pictureBox4.TabIndex = 20;
@@ -210,7 +211,7 @@ namespace ControleFinanças
             // pictureBox3
             // 
             this.pictureBox3.Image = global::ControleFinanças.Properties.Resources.baseline_fiber_manual_record_black_18dp1;
-            this.pictureBox3.Location = new System.Drawing.Point(192, 0);
+            this.pictureBox3.Location = new System.Drawing.Point(344, 1);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(39, 36);
             this.pictureBox3.TabIndex = 19;
@@ -220,19 +221,19 @@ namespace ControleFinanças
             // pictureBox2
             // 
             this.pictureBox2.Image = global::ControleFinanças.Properties.Resources.outline_skip_previous_black_18dp1;
-            this.pictureBox2.Location = new System.Drawing.Point(12, -1);
+            this.pictureBox2.Location = new System.Drawing.Point(56, 1);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(39, 36);
+            this.pictureBox2.Size = new System.Drawing.Size(36, 34);
             this.pictureBox2.TabIndex = 18;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // webBrowser1
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(0, 38);
+            this.webBrowser1.Location = new System.Drawing.Point(3, 38);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(426, 500);
+            this.webBrowser1.Size = new System.Drawing.Size(731, 450);
             this.webBrowser1.TabIndex = 19;
             // 
             // TelaInicial
@@ -240,14 +241,14 @@ namespace ControleFinanças
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(426, 579);
+            this.ClientSize = new System.Drawing.Size(737, 528);
             this.Controls.Add(this.siticonePanel1);
             this.Controls.Add(this.PanBt);
             this.Controls.Add(this.PanTop);
             this.Controls.Add(this.webBrowser1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.MaximumSize = new System.Drawing.Size(426, 579);
-            this.MinimumSize = new System.Drawing.Size(426, 579);
+            this.MaximumSize = new System.Drawing.Size(737, 528);
+            this.MinimumSize = new System.Drawing.Size(737, 528);
             this.Name = "TelaInicial";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaInicial";

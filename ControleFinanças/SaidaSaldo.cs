@@ -2,7 +2,6 @@
 using FluentValidation.Results;
 using Repositorio;
 using Serviços.Conversor;
-using Serviços.Modelo;
 using Serviços.Validador;
 using System;
 using System.Collections.Generic;
@@ -16,26 +15,21 @@ using System.Windows.Forms;
 
 namespace ControleFinanças
 {
-    public partial class AdicionarValorB : Form
+    public partial class SaidaSaldo : Form
     {
         BindingList<string> errors = new BindingList<string>();
         public Usuario User;
-        public AdicionarValorB(Usuario user)
+        public SaidaSaldo(Usuario user)
         {
             User = user;
             InitializeComponent();
-        }
-
-        private void siticoneControlBox1_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             var repositorio = new RepositorioUsuario();
 
-            
+
             User.Saldo = ConversorDeNumeros.ConvertaStringParaDecimal(txtDinheiro.Text, 2);
 
             ValidacaoSaldo validacao = new ValidacaoSaldo();
@@ -53,14 +47,18 @@ namespace ControleFinanças
             else
             {
 
-                repositorio.AdicionarAoValor(User);
+                repositorio.SubitrairAoValor(User);
                 MessageBox.Show(repositorio.mensagem);
                 this.Close();
 
 
             }
-
         }
     }
 }
 
+/* BindingList<string> errors = new BindingList<string>();
+        public Usuario User;
+        public EntradaSaldo(Usuario user)
+        {
+            User = user;*/

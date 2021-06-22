@@ -62,11 +62,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdicionarValorB.cs">
+    <Compile Include="AddIntermediario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdicionarValorB.Designer.cs">
-      <DependentUpon>AdicionarValorB.cs</DependentUpon>
+    <Compile Include="AddIntermediario.Designer.cs">
+      <DependentUpon>AddIntermediario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EntradaSaldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EntradaSaldo.Designer.cs">
+      <DependentUpon>EntradaSaldo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FinançasVerdeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FinançasVerdeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SaidaSaldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaidaSaldo.Designer.cs">
+      <DependentUpon>SaidaSaldo.cs</DependentUpon>
     </Compile>
     <Compile Include="TelaInicial.cs">
       <SubType>Form</SubType>
@@ -88,8 +105,14 @@
     <Compile Include="TelaLoginCadastrar.Designer.cs">
       <DependentUpon>TelaLoginCadastrar.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AdicionarValorB.resx">
-      <DependentUpon>AdicionarValorB.cs</DependentUpon>
+    <EmbeddedResource Include="AddIntermediario.resx">
+      <DependentUpon>AddIntermediario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntradaSaldo.resx">
+      <DependentUpon>EntradaSaldo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaidaSaldo.resx">
+      <DependentUpon>SaidaSaldo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaInicial.resx">
       <DependentUpon>TelaInicial.cs</DependentUpon>
@@ -110,6 +133,17 @@
     <EmbeddedResource Include="TelaLoginCadastrar.resx">
       <DependentUpon>TelaLoginCadastrar.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="FinançasVerdeDataSet.xsc">
+      <DependentUpon>FinançasVerdeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FinançasVerdeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FinançasVerdeDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FinançasVerdeDataSet.xss">
+      <DependentUpon>FinançasVerdeDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -51,7 +51,16 @@
     <Compile Include="Validador\ValidacaoSaldo.cs" />
     <Compile Include="Validador\ValidacaoUsuario.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Entidade\Entidade.csproj">
+      <Project>{83F78F0A-7E5D-4891-8663-1F6872AD0177}</Project>
+      <Name>Entidade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repositorio\Repositorio.csproj">
+      <Project>{60C1A434-296D-4D6A-B7F6-BF7C61AEA59F}</Project>
+      <Name>Repositorio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>

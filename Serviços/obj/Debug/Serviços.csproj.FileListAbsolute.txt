@@ -24,3 +24,16 @@ C:\Users\Vinicius\Source\Repos\Verde-CRUD\Serviços\obj\Debug\Serviços.csproj.C
 C:\Users\Vinicius\Source\Repos\Verde-CRUD\Serviços\obj\Debug\Serviços.csproj.CopyComplete
 C:\Users\Vinicius\Source\Repos\Verde-CRUD\Serviços\obj\Debug\Serviços.dll
 C:\Users\Vinicius\Source\Repos\Verde-CRUD\Serviços\obj\Debug\Serviços.pdb
+C:\Users\Vinicius\source\repos\FinançaVerde\Serviços\obj\Debug\Serviços.csprojAssemblyReference.cache
+C:\Users\Vinicius\source\repos\FinançaVerde\Serviços\obj\Debug\Serviços.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\source\repos\FinançaVerde\Serviços\obj\Debug\Serviços.dll
+C:\Users\Vinicius\source\repos\FinançaVerde\Serviços\obj\Debug\Serviços.pdb
+C:\Users\Vinicius\source\repos\FinançaVerde\Serviços\bin\Debug\Serviços.dll
+C:\Users\Vinicius\source\repos\FinançaVerde\Serviços\bin\Debug\Serviços.pdb
+C:\Users\Vinicius\source\repos\FinançaVerde\Serviços\bin\Debug\Entidade.dll
+C:\Users\Vinicius\source\repos\FinançaVerde\Serviços\bin\Debug\FluentValidation.dll
+C:\Users\Vinicius\source\repos\FinançaVerde\Serviços\bin\Debug\Repositorio.dll
+C:\Users\Vinicius\source\repos\FinançaVerde\Serviços\bin\Debug\Entidade.pdb
+C:\Users\Vinicius\source\repos\FinançaVerde\Serviços\bin\Debug\Repositorio.pdb
+C:\Users\Vinicius\source\repos\FinançaVerde\Serviços\bin\Debug\FluentValidation.xml
+C:\Users\Vinicius\source\repos\FinançaVerde\Serviços\obj\Debug\Serviços.csproj.CopyComplete
