@@ -196,11 +196,11 @@ namespace ControleFinanças
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Arial", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Teal;
-            this.label6.Location = new System.Drawing.Point(139, 93);
+            this.label6.Location = new System.Drawing.Point(155, 93);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(171, 11);
+            this.label6.Size = new System.Drawing.Size(135, 11);
             this.label6.TabIndex = 9;
-            this.label6.Text = "Comendo cu de curioso desde 1995!";
+            this.label6.Text = "Feio por Marcos Nascimento";
             // 
             // TelaLogin
             // 
