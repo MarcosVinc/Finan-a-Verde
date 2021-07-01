@@ -36,7 +36,6 @@ namespace ControleFinanças
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.siticoneDragControl1 = new Siticone.Desktop.UI.WinForms.SiticoneDragControl(this.components);
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,12 +44,10 @@ namespace ControleFinanças
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel1.Controls.Add(this.siticoneControlBox1);
             this.panel1.Controls.Add(this.siticoneControlBox2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.button2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(737, 35);
+            this.panel1.Size = new System.Drawing.Size(522, 35);
             this.panel1.TabIndex = 6;
             // 
             // siticoneControlBox1
@@ -60,7 +57,7 @@ namespace ControleFinanças
             this.siticoneControlBox1.FillColor = System.Drawing.Color.Teal;
             this.siticoneControlBox1.HoverState.Parent = this.siticoneControlBox1;
             this.siticoneControlBox1.IconColor = System.Drawing.Color.Honeydew;
-            this.siticoneControlBox1.Location = new System.Drawing.Point(638, 3);
+            this.siticoneControlBox1.Location = new System.Drawing.Point(423, 3);
             this.siticoneControlBox1.Name = "siticoneControlBox1";
             this.siticoneControlBox1.ShadowDecoration.Parent = this.siticoneControlBox1;
             this.siticoneControlBox1.Size = new System.Drawing.Size(45, 29);
@@ -72,7 +69,7 @@ namespace ControleFinanças
             this.siticoneControlBox2.FillColor = System.Drawing.Color.Teal;
             this.siticoneControlBox2.HoverState.Parent = this.siticoneControlBox2;
             this.siticoneControlBox2.IconColor = System.Drawing.Color.Honeydew;
-            this.siticoneControlBox2.Location = new System.Drawing.Point(689, 3);
+            this.siticoneControlBox2.Location = new System.Drawing.Point(474, 3);
             this.siticoneControlBox2.Name = "siticoneControlBox2";
             this.siticoneControlBox2.ShadowDecoration.Parent = this.siticoneControlBox2;
             this.siticoneControlBox2.Size = new System.Drawing.Size(45, 29);
@@ -84,9 +81,9 @@ namespace ControleFinanças
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Aqua;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(97, 4);
+            this.button1.Location = new System.Drawing.Point(324, 250);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 31);
+            this.button1.Size = new System.Drawing.Size(153, 31);
             this.button1.TabIndex = 10;
             this.button1.Text = "SAIDA";
             this.button1.UseVisualStyleBackColor = false;
@@ -98,9 +95,9 @@ namespace ControleFinanças
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Aqua;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(3, 4);
+            this.button2.Location = new System.Drawing.Point(42, 250);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 31);
+            this.button2.Size = new System.Drawing.Size(153, 31);
             this.button2.TabIndex = 11;
             this.button2.Text = "ENTRADA";
             this.button2.UseVisualStyleBackColor = false;
@@ -110,24 +107,18 @@ namespace ControleFinanças
             // 
             this.siticoneDragControl1.TargetControl = this.panel1;
             // 
-            // panel3
-            // 
-            this.panel3.Location = new System.Drawing.Point(117, 225);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(600, 291);
-            this.panel3.TabIndex = 20;
-            // 
             // AddIntermediario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(737, 528);
-            this.Controls.Add(this.panel3);
+            this.ClientSize = new System.Drawing.Size(522, 352);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.MaximumSize = new System.Drawing.Size(737, 528);
-            this.MinimumSize = new System.Drawing.Size(737, 528);
+            this.MaximumSize = new System.Drawing.Size(522, 352);
+            this.MinimumSize = new System.Drawing.Size(522, 352);
             this.Name = "AddIntermediario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddIntermediario";
@@ -143,6 +134,5 @@ namespace ControleFinanças
         private Siticone.Desktop.UI.WinForms.SiticoneControlBox siticoneControlBox2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Panel panel3;
     }
 }

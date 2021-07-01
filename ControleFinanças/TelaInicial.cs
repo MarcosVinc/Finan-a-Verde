@@ -30,12 +30,11 @@ namespace ControleFinanças
         private void Customizacao()
         {
             PanBt.Visible = false;
-
         }
 
         private void EsconderSubMenu()
         {
-            if (PanBt.Visible == true)
+            if (PanBt.Visible  == true)
                 PanBt.Visible = false;
         }
 
@@ -65,7 +64,7 @@ namespace ControleFinanças
         }
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            MostrarSubMenu(PanBt);
+           MostrarSubMenu(PanBt);
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -100,7 +99,7 @@ namespace ControleFinanças
 
         private void TelaInicial_Load(object sender, EventArgs e)
         {
-
+            webBrowser1.Navigate ("https://www.instagram.com/marcosl.xs/?hl=pt-br");
         }
     }
 }
